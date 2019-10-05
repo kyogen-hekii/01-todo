@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"jshint.options": {"esversion": 6},
+		"emmet.includeLanguages": {
+			"vue": ["html","css"],
+		},
+			"eslint.validate": [
+				"javascript",
+				"javascriptreact",
+				{
+					"language": "vue",
+					"autoFix": true
+				}
+			],
+			"css.validate": false,
+			"less.validate": false,
+			"scss.validate": false,
+			"javascript.validate.enable": false,
+			"javascript.format.enable": false,
+			"vetur.validation.template": false,
+			"vetur.format.defaultFormatter.html": "none"
+		
+	}
+}
